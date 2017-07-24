@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/activity_reg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="202.98.11.79"
+            android:id="@+id/edit_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="3701"
+            android:id="@+id/edit_port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="13843030549"
+            android:id="@+id/edit_phone_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="流水号"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="0"
+            android:id="@+id/edit_flow_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="省id"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="0"
+            android:id="@+id/edit_cp_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="市id"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="0"
+            android:id="@+id/edit_city_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="制造商id"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="70960"
+            android:id="@+id/edit_fc_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="终端型号"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="DRT3110(BD)"
+            android:id="@+id/edit_ter_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="终端id"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="89138"
+            android:id="@+id/edit_ter_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车牌颜色"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="1"
+            android:id="@+id/edit_color_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车牌号"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edit_car_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8D擳"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_con"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="连接"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="注册"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn_auth"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="鉴权"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn_heart"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="心跳"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="报警标志"
+                android:textSize="20dp" />
+
+            <EditText
+                android:text="0"
+                android:id="@+id/edit_sign"
+                android:layout_width="150dp"
+
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="状态"
+                android:textSize="20dp" />
+
+            <EditText
+                android:text="2"
+                android:id="@+id/edit_state"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="纬度"
+                android:textSize="20dp" />
+
+            <EditText
+                android:text="43"
+                android:id="@+id/edit_lat"
+                android:layout_width="150dp"
+
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="经度"
+                android:textSize="20dp" />
+
+            <EditText
+                android:text="128"
+                android:id="@+id/edit_lon"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="海拔"
+                android:textSize="20dp" />
+
+            <EditText
+                android:text="0"
+                android:id="@+id/edit_height"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="速度"
+                android:textSize="20dp" />
+            <EditText
+                android:text="0"
+                android:id="@+id/edit_speed"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="方向"
+                android:textSize="20dp" />
+
+            <EditText
+                android:text="0"
+                android:id="@+id/edit_direction"
+                android:layout_width="150dp"
+
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间"
+                android:textSize="20dp" />
+
+            <EditText
+                android:text="2017520121212"
+                android:id="@+id/edit_time"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="附加信息Id"
+                android:textSize="20dp" />
+
+            <EditText
+                android:text="1"
+                android:id="@+id/edit_attachId"
+                android:layout_width="150dp"
+
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="附加信息长度"
+                android:textSize="20dp" />
+
+            <EditText
+                android:text="4"
+                android:id="@+id/edit_attachLength"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="附加信息"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text="10"
+            android:id="@+id/edit_attachMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="位置信息汇报"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/btn_resp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="通用应答"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="注销"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn_paramresp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="查询终端参数"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/opensql"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="打开sql"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/selectsql"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="查找sql"
+        android:textSize="20dp" />
+</LinearLayout>
+</ScrollView>
